@@ -1,0 +1,23 @@
+# Peptuno protocol file (v1). To use it: Peptuno → My Stack → Import protocol. Lines starting with # are ignored.
+# Frequency options: daily | every other day | every 3 days | 5 on 2 off | Mon Wed Fri | weekly Mon | days 1 3 5
+"# Form: powder or liquid. Dose units: mg, mcg, ml or units. Times: Morning 08:00; Evening 20:00. Your start date is picked when you import."
+Peptuno protocol,1
+Field,Value
+Peptide,Example peptide
+Protocol name,Example Protocol
+Form,powder
+Peptide per vial (mg),10
+Diluent volume (ml),3
+Vial volume (ml),
+Strength (mg/ml),
+Weeks on,8
+Weeks off,4
+Cycles,1
+Frequency,daily
+Times,Morning 08:00
+Notes,
+
+Dose steps
+From week,To week,Dose,Unit,Frequency,Optional,Units override
+1,4,1,mg,,no,
+5,8,2,mg,,no,
